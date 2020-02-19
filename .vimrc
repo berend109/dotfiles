@@ -32,5 +32,15 @@ colorscheme desert
 " make backspace work
 set backspace=2
 
-" stop the anoying windows bell
+" stop the bell
 set belloff=all
+
+" Searching
+set incsearch								"search as character are entered
+set hlsearch								"higlight matches
+nnoremap <leader><space> :nohlsearch<CR>	"\ and space will delete search higligts
+
+" UI Config
+set showcmd									"show last command in bottom bar
+set showmatch								"higlight matching [{()}]
+set wildmenu								"visual autocomplete for command menu	
