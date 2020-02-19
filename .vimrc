@@ -1,14 +1,36 @@
-" Spaces & tabs
-set tabstop=4								"Number of visual spaces per TAB
-set softtabstop=4							"Number of spaces in tab when editing
+" Put this file in your home folder
+" Windows \home\UserName\_vimrc
+" Linux ~/.vimrc
 
-" UI Config
-set number									"show number lines
-set showcmd									"show last command in bottom bar
-set showmatch								"higlight matching [{()}]
-set wildmenu								"visual autocomplete for command menu
+" Turn on syntax highlighting.
+syntax on
+        
+" Automatically wrap text that extends beyond the screen length.
+set wrap
 
-" Searching
-set incsearch								"search as character are entered
-set hlsearch								"higlight matches
-nnoremap <leader><space> :nohlsearch<CR>	"\ and space will delete search higligts
+" Status bar
+set laststatus=2
+
+" Show line numbers
+set relativenumber
+
+" Set status line display
+set statusline=[FILE=%t]\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime('%c')}
+
+" show existing tab with 4 spaces width
+set tabstop=4
+        
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+
+" On pressing tab, insert 4 spaces
+" set expandtab
+
+" set the theme
+colorscheme desert
+
+" make backspace work
+set backspace=2
+
+" stop the anoying windows bell
+set belloff=all
