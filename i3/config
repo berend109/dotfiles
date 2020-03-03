@@ -159,3 +159,8 @@ bindsym $mod+Shift+s exec spotify
 
 # set i3lock
 bindsym $mod+Shift+l exec i3lock
+
+# start up programs by default
+
+# this starts up nitrogen that handels the background
+exec --no-startup-id nitrogen --restore
