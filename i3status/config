@@ -23,8 +23,6 @@ order += "battery 1"
 
 order += "tztime local"
 
-order += "volume master"
-
 # display calls
 
 wireless _first_ {
@@ -61,12 +59,4 @@ cpu_temperature 0 {
 
 disk "/" {
     format = "%avail"
-}
-
-volume master {
-    format = "♪: %volume"
-    format_muted = "♪: muted (%volume)"
-    device = "default"
-    mixer = "Master"
-    mixer_idx = 0
 }
