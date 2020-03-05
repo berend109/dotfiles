@@ -146,6 +146,9 @@ bar {
 
 # custom keybinds
 
+# set telegram keybind
+bindsym $mod+Shift+t exec telegram-desktop
+
 # set nautilus keybind
 bindsym $mod+Shift+n exec nautilus
 
