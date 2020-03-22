@@ -5,11 +5,6 @@
 # change pwd length in the terminal
 PROMPT_DIRTRIM=1
 
-# golang settings
-export GOROOT=/usr/share/doc/golang-go
-export GOPATH=$HOME/Workspace/go
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
