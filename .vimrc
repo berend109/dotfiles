@@ -44,3 +44,6 @@ nnoremap <leader><space> :nohlsearch<CR>	"\ and space will delete search higligt
 set showcmd									"show last command in bottom bar
 set showmatch								"higlight matching [{()}]
 set wildmenu								"visual autocomplete for command menu	
+
+" no swap file
+set noswapfile
