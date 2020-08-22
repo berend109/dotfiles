@@ -1,4 +1,3 @@
-" Put this file in your home folder
 " Windows \home\UserName\_vimrc
 " Linux ~/.vimrc
 
