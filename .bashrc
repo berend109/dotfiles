@@ -2,8 +2,13 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# custom settings
+
 # change pwd length in the terminal
 PROMPT_DIRTRIM=1
+
+# use list for ls -al
+alias list='ls -al'
 
 # If not running interactively, don't do anything
 case $- in
