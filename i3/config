@@ -35,12 +35,18 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
+# replacement for d menu
+# To install run: sudo apt install rofi
+# open new program
+bindsym $mod+d exec rofi -show run
+# open/scroll through current open programs
+bindsym $mod+Shift+d exec rofi -show window
 # start dmenu (a program launcher)
 # bindsym $mod+d exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
