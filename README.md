@@ -2,6 +2,7 @@
 backup of my personal dot files
 <br><br><br>
 # instructions
+:warning: currently using debian distro
 
 
 ## Get started with i3wm
