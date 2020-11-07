@@ -2,8 +2,7 @@
 backup of my personal dot files
 <br><br><br>
 # instructions
-:warning: currently using debian distro
-
+:exclamation::exclamation: currently using debian10 and came from ubuntu/popos tested with those 3 :exclamation::exclamation:
 
 ## Get started with i3wm
 
