@@ -1,4 +1,3 @@
-" Windows \home\UserName\_vimrc
 " Linux ~/.vimrc
 
 " Turn on syntax highlighting.
@@ -26,7 +25,7 @@ set shiftwidth=4
 " set expandtab
 
 " set the theme
-colorscheme desert
+colorscheme slate
 
 " make backspace work
 set backspace=2
