@@ -24,14 +24,15 @@ backup of my personal dot files
 		- install rofi to replace the somewat limited d-menu and make the config file work.
 			- apt update
 			- apt install rofi
-			- Mod + r to restart i3
-			- Mod + d or Mod+shift+d to open program or scroll through open windows.
+		- Mod + r to restart i3
+		- Mod + d or Mod+shift+d to open program or scroll through open windows.
   
 ## Get started with vim
 	- download this repo
 	- extract in downloads
 	- open terminal
 	- mv ~/Downloads/dotfiles-master/.vimrc ~/
+	- open vim to see the effects.
 
 ## Get started with bash (custom settings in terminal)
 	- download this repo
@@ -39,3 +40,4 @@ backup of my personal dot files
 	- open terminal
 	- mv ~/Downloads/dotfiles-master/.bashrc ~/
 	- mv ~/Downloads/dotfiles-master/.bash_aliases ~/
+	- close and reopen terminal
