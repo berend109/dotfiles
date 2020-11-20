@@ -39,7 +39,7 @@ bindsym $mod+Shift+q kill
 # open new program
 bindsym $mod+d exec rofi -show run
 # open/scroll through current open programs
-bindsym $mod+Shift+d exec rofi -show window
+bindsym $mod+o exec rofi -show window
 # start dmenu (a program launcher)
 # bindsym $mod+d exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
@@ -196,6 +196,9 @@ bindsym $mod+Shift+l exec i3lock
 
 # set jetbrains-toolbox
 bindsym $mod+Shift+j exec ./Documents/jetbrains-toolbox
+
+# set firefox-dev
+bindsym $mod+Shift+d exec ./Documents/firefox/firefox
 
 # start up programs by default
 # this starts up nitrogen that handels the background
