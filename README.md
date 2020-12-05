@@ -19,8 +19,8 @@ backup of my personal dot files
 	- setup
 		- Mod + enter to open terminal
 		- move the downloaded i3 and i3status folder to destination
-			- mv ~/Downloads/dotfiles-master/i3 ~/.config/
-			- mv ~/Downloads/dotfiles-master/i3status ~/.config/
+			- cp ~/Downloads/dotfiles-master/i3 ~/.config/
+			- cp ~/Downloads/dotfiles-master/i3status ~/.config/
 		- install rofi to replace the somewat limited d-menu and make the config file work.
 			- apt update
 			- apt install rofi
@@ -31,13 +31,13 @@ backup of my personal dot files
 	- download this repo
 	- extract in downloads
 	- open terminal
-	- mv ~/Downloads/dotfiles-master/.vimrc ~/
+	- cp ~/Downloads/dotfiles-master/.vimrc ~/
 	- open vim to see the effects.
 
 ## Get started with bash (custom settings in terminal)
 	- download this repo
 	- extract in downloads
 	- open terminal
-	- mv ~/Downloads/dotfiles-master/.bashrc ~/
-	- mv ~/Downloads/dotfiles-master/.bash_aliases ~/
+	- cp ~/Downloads/dotfiles-master/.bashrc ~/
+	- cp ~/Downloads/dotfiles-master/.bash_aliases ~/
 	- close and reopen terminal
