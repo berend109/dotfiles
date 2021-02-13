@@ -25,7 +25,7 @@ backup of my personal dot files
 			- apt update
 			- apt install rofi
 		- Mod + r to restart i3
-		- Mod + d or Mod+shift+d to open program or scroll through open windows.
+		- Mod + d or Mod+o to open program or scroll through open windows.
   
 ## Get started with vim
 	- download this repo
