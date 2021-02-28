@@ -9,7 +9,10 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+# Mod1 == alt kej
+# Mod4 == windows key
 set $mod Mod1
+# set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -199,4 +202,4 @@ bindsym $mod+Shift+j exec ~/.local/share/applications/jetbrains-toolbox
 
 # start up programs by default
 # this starts up nitrogen that handels the background
-exec --no-startup-id feh --bg-fill ~/Pictures/backgroundi3#1.png
+exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/wallhaven-j5912q.jpg
