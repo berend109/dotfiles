@@ -182,6 +182,7 @@ bar {
 }
 
 # custom settings
+
 # keybinds
 # set nautilus keybind
 bindsym $mod+Shift+n exec nautilus
@@ -203,4 +204,8 @@ bindsym $mod+Shift+j exec ~/.local/share/applications/jetbrains-toolbox
 
 # start up programs by default
 # this starts up nitrogen that handels the background
-exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/wallhaven-j5912q.jpg
+exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/wallhaven-13rjg3.jpg
+
+# change title bar
+# centers the title in the title bar
+title_align center
