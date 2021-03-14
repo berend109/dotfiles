@@ -1,2 +1,6 @@
-# this ignores any jetbrains config files.
+# jetbrains
 .idea
+# vscode
+.vscode
+# git
+.gitignore
