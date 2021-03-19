@@ -34,14 +34,26 @@ set backspace=2
 set belloff=all
 
 " Searching
-set incsearch								"search as character are entered
-set hlsearch								"higlight matches
-nnoremap <leader><space> :nohlsearch<CR>	"\ and space will delete search higligts
+set incsearch								" search as character are entered
+set hlsearch								" higlight matches
+nnoremap <leader><space> :nohlsearch<CR>	" \ and space will delete search higligts
 
 " UI Config
-set showcmd									"show last command in bottom bar
-set showmatch								"higlight matching [{()}]
-set wildmenu								"visual autocomplete for command menu	
+set showcmd									" show last command in bottom bar
+set showmatch								" higlight matching [{()}]
+set wildmenu								" visual autocomplete for command menu
 
 " no swap file
 set noswapfile
+
+" control tabs
+" use alt key and arrow to go forward an backwards
+noremap <S-Right>  :tabnext<cr>
+noremap <S-Left> :tabprevious<cr>
+
+" Explore settings
+map <F2> :Explore<CR>
+let g:netrw_liststyle = 3					" Set nerdtree view on style 3
+let g:netrw_banner = 0						" turn off banner in nerdtree
+let g:netrw_browse_split = 3				" open file in tabview
+let g:netrw_winsize = 20					" open explorer in 20% width
