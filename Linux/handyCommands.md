@@ -10,8 +10,7 @@
 	xrandr --output HDMI1 --off
 
 # wifi controler
-	nm-applet
-	nmcli dev monitor (this shows the monitor live in the terminal.)
+	nmtui # to connect to wifi and paste password
 
 # kill a processess
 	ps -ae # see full list of running processess with there PID
