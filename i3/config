@@ -43,7 +43,7 @@ bindsym $mod+Shift+q kill
 # open new program
 bindsym $mod+d exec rofi -show run
 # open/scroll through current open programs
-bindsym $mod+o exec rofi -show window
+bindsym $mod+Shift+d exec rofi -show window
 # start dmenu (a program launcher)
 # bindsym $mod+d exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
@@ -190,6 +190,9 @@ bindsym $mod+Shift+n exec nautilus
 # set firefox keybind
 bindsym $mod+Shift+f exec firefox
 
+# set brave keybind
+bindsym $mod+Shift+b exec brave-browser
+
 # set code keybind
 bindsym $mod+Shift+c exec code
 
@@ -204,7 +207,7 @@ bindsym $mod+Shift+j exec ~/.local/share/applications/jetbrains-toolbox
 
 # start up programs by default
 # this starts up nitrogen that handels the background
-exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/wallhaven-13rjg3.jpg
+exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/wallhaven-13wvlv.jpg
 
 # change title bar
 # centers the title in the title bar
