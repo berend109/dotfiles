@@ -206,6 +206,12 @@ bindsym $mod+Shift+l exec i3lock --color "#454545"
 bindsym $mod+Shift+j exec ~/.local/share/applications/jetbrains-toolbox
 
 # start up programs by default
+# start nm-applet
+exec --no-startup-id nm-applet
+
+# start bleuman-manager
+exec --no-startup-id blueman-manager
+
 # this starts up nitrogen that handels the background
 exec --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/wallhaven-13wvlv.jpg
 
