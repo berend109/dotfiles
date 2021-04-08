@@ -41,7 +41,8 @@ bindsym $mod+Shift+q kill
 
 # replacement for d menu
 # open new program
-bindsym $mod+d exec rofi -show run
+# bindsym $mod+d exec rofi -show run
+bindsym $mod+d exec rofi -show drun
 # open/scroll through current open programs
 bindsym $mod+Shift+d exec rofi -show window
 # start dmenu (a program launcher)
