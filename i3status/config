@@ -1,5 +1,5 @@
 general {
-    colors = true
+    colors = false
     interval = 1
 }
 
@@ -7,13 +7,13 @@ general {
 
 order += "disk /"
 
-order += "ipv6"
-
 order += "wireless _first_"
 
 order += "ethernet _first_"
 
 order += "load"
+
+order += "memory"
 
 order += "cpu_usage"
 
@@ -23,10 +23,12 @@ order += "battery 1"
 
 order += "tztime local"
 
+Order += "volume master"
+
 # display calls
 
 wireless _first_ {
-    format_up = "W: (%quality at %essid) %ip"
+    format_up = "W: %quality %essid - %ip"
     format_down = "W: down"
 }
 
@@ -37,8 +39,12 @@ ethernet _first_ {
 }
 
 battery 1 {
-    format = "%status %percentage %remaining"
-    path = "/sys/class/power_supply/BAT0/uevent"
+	format = "%status %percentage %remaining %emptytime"
+	path = "/sys/class/power_supply/BAT0/uevent"
+	status_chr = "⚡ CHR"
+	status_bat = "🔋 BAT"
+	status_unk = "? UNK"
+	status_full = "☻ FULL"
 }
 
 tztime local {
@@ -57,6 +63,20 @@ cpu_temperature 0 {
     format = "T: %degrees °C"
 }
 
+memory {
+	format = "RAM: Used: %used - Total: %total"
+	threshold_degraded = "10%"
+	format_degraded = "MEMORY: %free"
+}
+
 disk "/" {
-    format = "%avail"
+    format = "Disk: %avail %percentage_free free"
+}
+
+volume master {
+        format = "♪: %volume"
+        format_muted = "♪: muted (%volume)"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
 }
