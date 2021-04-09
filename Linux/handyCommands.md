@@ -15,3 +15,6 @@
 # kill a processess
 	ps -ae # see full list of running processess with there PID
 	kill PIDNumber # where the number is the process you like to kill
+
+# open gnome settings
+	env XDG_CURRENT_DESKTOP=GNOME gnome-control-center
