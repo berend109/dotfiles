@@ -1,13 +1,28 @@
 " /home/berend/.config/nvim/init.vim 
 
+" Plugins
+call plug#begin('~/.vim/plugged')
+" AutoCompletion
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Gruvbox theme
+Plug 'morhetz/gruvbox'
+
+call plug#end()
+
+" coc config
+let g:coc_global_extensions = [
+  \ 'coc-snippets',
+  \ 'coc-pairs',
+  \ 'coc-eslint', 
+  \ 'coc-prettier', 
+  \ 'coc-json', 
+  \ ]
+
 " Turn on syntax highlighting.
 syntax on
         
 " Automatically wrap text that extends beyond the screen length.
 set wrap
-
-" Status bar
-set laststatus=2
 
 " Show line numbers
 set relativenumber
@@ -28,7 +43,7 @@ set autoindent
 " set expandtab
 
 " set the theme
-colorscheme default
+colorscheme gruvbox
 
 " make backspace work
 set backspace=2
