@@ -8,3 +8,7 @@ alias ll='ls -l -AF'
 
 # show ls without color
 alias ls='ls -ACF'
+
+# update && upgrade
+alias update='sudo apt update && apt list --upgradable'
+alias upgrade='sudo apt upgrade'
