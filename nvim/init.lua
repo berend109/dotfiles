@@ -1,2 +1,1 @@
-require("berend.remap")
-require("berend.set")
+require("berend")
