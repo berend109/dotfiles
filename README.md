@@ -24,7 +24,7 @@ backup of my personal dot files
 		- install rofi to replace the somewat limited d-menu and make the config file work.
 			- apt update
 			- apt install rofi
-		- Mod + r to restart i3
+		- Mod + shift + r to restart i3
 		- Mod + d or Mod+o to open program or scroll through open windows.
   
 ## Get started with vim
