@@ -1,14 +1,14 @@
 return {
-  -- add gruvbox
+  -- add themes
   { "ellisonleao/gruvbox.nvim" },
   { "savq/melange-nvim" },
 
-  -- Configure LazyVim to load gruvbox
+  -- Configure LazyVim to load themes 
   {
     "LazyVim/LazyVim",
     opts = {
       -- colorscheme = "gruvbox",
-      colorscheme = "melange",
+      -- colorscheme = "melange",
     },
   },
 }
